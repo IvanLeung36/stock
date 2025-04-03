@@ -24,7 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "app": "react-scripts start & uvicorn server:app",
+    "app": "react-scripts start & python3 -m uvicorn server:app",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
