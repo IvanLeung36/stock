@@ -1,6 +1,7 @@
 import yfinance as yf
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
 
@@ -32,5 +33,7 @@ async def get_stock(symbol: str):
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
+
+app.mount("/", StaticFiles(directory="build", html=True))
 
 # Run with 'uvicorn server:app --reload'
