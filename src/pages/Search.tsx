@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { getStockData } from "../services/stockService";
 import { StockGraph } from "../components/StockGraph";
 import "./Search.css";
