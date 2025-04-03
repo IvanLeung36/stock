@@ -35,7 +35,7 @@ const Home: React.FC = () => {
         <br/>
         You can search for any of these symbols to get the current price.
         <br/>
-        <a href="https://stockanalysis.com/stocks/" target="_blank">https://stockanalysis.com/stocks/</a>
+        <a href="https://stockanalysis.com/stocks/" target="_blank" rel="noopener noreferrer">https://stockanalysis.com/stocks/</a>
       </p>
     </div>
   );
