@@ -1,6 +1,6 @@
 import axios from "axios";
 
-let API_URL = "https://ivan-stocks.up.railway.app/api/stock";
+let API_URL = "http://127.0.0.1:8000/api/stock";
 
 export let getStockData = async (symbol: string) => {
   try {

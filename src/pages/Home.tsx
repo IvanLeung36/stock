@@ -30,6 +30,13 @@ const Home: React.FC = () => {
         <li>TSLA (Tesla)</li>
         <li>NVDA (Nvidia)</li>
       </ul>
+      <p>
+        This is a chart for the symbols of american stocks. 
+        <br/>
+        You can search for any of these symbols to get the current price.
+        <br/>
+        <a href="https://stockanalysis.com/stocks/" target="_blank">https://stockanalysis.com/stocks/</a>
+      </p>
     </div>
   );
 };
